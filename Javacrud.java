@@ -71,7 +71,7 @@ public class Javacrud {
 	public void Connect() {
 	try {
 		 Class.forName("com.mysql.cj.jdbc.Driver");
-		 con = DriverManager.getConnection("jdbc:mysql://localhost/Testc","mueumi","sunmicro01");
+		 con = DriverManager.getConnection("jdbc:mysql://localhost/Testc","","");
 		 
 	}catch (ClassNotFoundException ex) {
 		
